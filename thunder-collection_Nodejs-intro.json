@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Nodejs-intro",
+    "dateExported": "2023-04-25T03:51:10.168Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "99ee9fc7-104f-4634-8d29-b35f4309c0b0",
+            "colId": "56e5bc52-0386-40d0-99d3-e921aa82ea01",
+            "containerId": "",
+            "name": "GETall",
+            "url": "http://localhost:4000/users",
+            "method": "PUT",
+            "sortNum": 5000,
+            "created": "2023-04-25T03:11:56.449Z",
+            "modified": "2023-04-25T03:42:43.467Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "       {\n        \n        \"lastName\": \"Abano\"\n        \n       }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "19903a72-03e3-44c9-8033-9a760eef1170",
+            "colId": "56e5bc52-0386-40d0-99d3-e921aa82ea01",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:4000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-25T03:09:10.562Z",
+            "modified": "2023-04-25T03:43:52.336Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "       {\n         \n        \"firstName\": \"Johnyy\"\n        \n        \n        \n       }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d68bf5a5-f34b-49e6-99e0-8803d4cc5751",
+            "colId": "56e5bc52-0386-40d0-99d3-e921aa82ea01",
+            "containerId": "",
+            "name": "GetbyId",
+            "url": "http://localhost:4000/users/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-25T03:40:34.382Z",
+            "modified": "2023-04-25T03:40:34.382Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "       {\n         \"title\": \"AssistantOfficer\",\n        \"firstName\": \"Juan\",\n        \"lastName\": \"Cabido\",\n        \"role\": \"Admin\",\n        \"email\": \"johncabido@gmail.com\",\n        \"password\": \"Taesakanding01*\",\n        \"confirmPassword\": \"Taesakanding01*\"\n       }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5a930a9f-0761-4133-966a-f9cced976053",
+            "colId": "56e5bc52-0386-40d0-99d3-e921aa82ea01",
+            "containerId": "",
+            "name": "PUT",
+            "url": "http://localhost:4000/users/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-04-25T03:46:23.640Z",
+            "modified": "2023-04-25T03:46:23.640Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "       {\n         \n        \"email\": \"fuckdapolis@gmail.com\"\n        \n       }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "38b6b57e-a766-43ad-824e-bcee5fa58cfa",
+            "colId": "56e5bc52-0386-40d0-99d3-e921aa82ea01",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:4000/users/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-04-25T03:48:08.401Z",
+            "modified": "2023-04-25T03:48:08.401Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "       {\n         \n        \"firstName\": \"Juan\"\n        \n       }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
