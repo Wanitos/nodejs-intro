@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mysql-crud-api",
+    "dateExported": "2023-05-05T05:02:43.410Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "589abee8-7c60-4596-9e12-8b3159de0356",
+            "colId": "589873c1-ecfd-457b-9696-94843a2b2dbf",
+            "containerId": "",
+            "name": "post ",
+            "url": "http://localhost:4000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-05T04:59:09.103Z",
+            "modified": "2023-05-05T04:59:09.103Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"title\": \"CEO\",\n        \"firstName\":\"James\" ,\n        \"lastName\":\"Lebron\" ,\n        \"role\": \"Admin\" ,\n        \"email\":\"jamesbron@gmail.com\",\n        \"password\":\"4567222\" ,\n        \"confirmPassword\":\"4567222\" \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "685e5096-702c-49e9-8372-96ad157063f9",
+            "colId": "589873c1-ecfd-457b-9696-94843a2b2dbf",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:4000/users/2",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-05-05T04:59:27.842Z",
+            "modified": "2023-05-05T04:59:27.842Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"title\": \"CEO\",\n        \"firstName\":\"James\" ,\n        \"lastName\":\"Lebron\" ,\n        \"role\": \"Admin\" ,\n        \"email\":\"jamesbron@gmail.com\",\n        \"password\":\"4567222\" ,\n        \"confirmPassword\":\"4567222\" \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d83c5380-d594-4c80-8bb1-d135f770b6bb",
+            "colId": "589873c1-ecfd-457b-9696-94843a2b2dbf",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:4000/users/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-05-05T05:01:02.174Z",
+            "modified": "2023-05-05T05:01:02.174Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"title\": \"Manager\",\n        \"firstName\":\"Stephen\" ,\n        \"lastName\":\"Poole\" \n        \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7d4d9d19-e3e3-41dd-abdb-5aedc170162d",
+            "colId": "589873c1-ecfd-457b-9696-94843a2b2dbf",
+            "containerId": "",
+            "name": "getall",
+            "url": "http://localhost:4000/users/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-05T05:01:40.942Z",
+            "modified": "2023-05-05T05:01:40.942Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"title\": \"Manager\",\n        \"firstName\":\"Stephen\" ,\n        \"lastName\":\"Poole\" \n        \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "78ec917a-eecf-45ff-8dd8-c2a35b10e6fe",
+            "colId": "589873c1-ecfd-457b-9696-94843a2b2dbf",
+            "containerId": "",
+            "name": "getbyID",
+            "url": "http://localhost:4000/users/1",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-05-05T05:02:31.813Z",
+            "modified": "2023-05-05T05:02:31.813Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"title\": \"Manager\",\n        \"firstName\":\"Stephen\" ,\n        \"lastName\":\"Poole\" \n        \n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
